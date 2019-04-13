@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "642315770269",
+    "firebase_url": "https://uberlike-a1c3d.firebaseio.com",
+    "project_id": "uberlike-a1c3d",
+    "storage_bucket": "uberlike-a1c3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642315770269:android:92a13eb7011cfc01",
+        "android_client_info": {
+          "package_name": "com.example.uberlike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642315770269-q7eakl0ko9pcqbevds1a61djo6vmqs2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uberlike",
+            "certificate_hash": "5418bc7ea074e4e1fc8d0ee445513a31481a9568"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoEnm5-K5V1a5AxFuxU1QHuYG1aWjOAGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642315770269-u0862ci8mcaa0ksuo9lofsf07us773cp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
