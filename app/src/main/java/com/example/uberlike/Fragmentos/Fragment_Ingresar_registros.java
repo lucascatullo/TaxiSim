@@ -12,14 +12,14 @@ import android.widget.Button;
 import com.example.uberlike.Activities.Activity_Ingresos_Registros;
 import com.example.uberlike.R;
 
-public class Fragment_Ingresar extends Fragment {
+public class Fragment_Ingresar_registros extends Fragment {
 
     View v;
     Button boton_ingresar_cliente;
     Button boton_ingresar_trabajar;
     Button boton_iniciar_sesion;
 
-    public Fragment_Ingresar() {
+    public Fragment_Ingresar_registros() {
 
     }
 
@@ -36,20 +36,21 @@ public class Fragment_Ingresar extends Fragment {
         boton_ingresar_trabajar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // accede a la interfaz para registrarse como conductor.
+                // accede a la UI para registrarse como conductor.
                 RegistroTrabajar();
             }
         });
         boton_ingresar_cliente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //accede a la interfaz de Activity_Ingresos_Registros de Clienttes
+                //accede a la interfaz para registrarte como Clienttes
                 RegistroCliente();
             }
         });
         boton_iniciar_sesion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // entra a la interfaz para ingresar al sistema si ya estas registrado
                 IniciarSesion();
             }
         });
